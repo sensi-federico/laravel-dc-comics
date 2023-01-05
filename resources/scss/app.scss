@@ -1,0 +1,188 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+img {
+    max-width: 100%;
+}
+
+
+header {
+
+    .navbar {
+        .logo {
+            img {
+                width: 70px;
+            }
+        }
+
+        .links {
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: black;
+                margin-right: 1.5rem;
+                padding-bottom: 3.35rem;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #0282F9;
+                }
+            }
+
+            .active {
+                border-bottom: 4px solid #0282F9;
+            }
+        }
+
+        .search {
+            padding-top: .3rem;
+            padding-left: 2rem;
+            border-bottom: 4px solid #0282F9;
+        }
+    }
+}
+
+main {
+    .jumbotron {
+        background-image: url('../img/jumbotron.jpg');
+        height: 400px;
+    }
+
+    .banner {
+        h3 {
+            text-transform: uppercase;
+            color: white;
+            background-color: #0282F9;
+            padding: 1rem;
+            width: 260px;
+            position: relative;
+            top: 23rem;
+            left: 4rem;
+        }
+    }
+
+    .comics {
+        padding: 5rem 0;
+
+        .my-card {
+            img {
+                width: 250px;
+                height: 200px;
+                object-fit: cover;
+                border: 1px solid white;
+                transition: all .4s ease 0s;
+
+                &:hover {
+                    scale: 1.05;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .button {
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all .4s ease 0s;
+
+            &:hover {
+                scale: 1.05;
+            }
+
+            p {
+                margin: 0;
+                width: 250px;
+                background: #0282F9;
+                padding: .5rem;
+            }
+        }
+    }
+
+    .main-banner {
+        background: #0282F9;
+
+        img {
+            width: 70px;
+            height: 70px;
+            transition: all .4s ease 0s;
+
+            &:hover {
+                scale: 1.2;
+                cursor: pointer;
+            }
+        }
+
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+footer {
+    .links {
+        background-image: url('../img/footer-bg.jpg');
+
+        a {
+            text-decoration: none;
+            color: gray;
+
+            &:hover {
+                color: #0282F9;
+                cursor: pointer;
+            }
+        }
+
+        p {
+            color: gray;
+            padding-bottom: 1rem;
+        }
+
+        span {
+            color: #0282F9;
+        }
+
+        .logo {
+            height: 300px;
+            width: 700px;
+            position: relative;
+            right: 2rem;
+            scale: 1.4;
+        }
+    }
+
+    .footer-banner {
+        z-index: 100;
+        position: relative;
+
+        .button {
+            border: 1px solid #0282F9;
+            color: white;
+            padding: .5rem;
+            text-transform: uppercase;
+            font-size: small;
+            transition: all .4s ease 0s;
+
+            &:hover {
+                background-color: #0282F9;
+                cursor: pointer;
+            }
+        }
+
+        .social {
+            img {
+                margin-right: 1rem;
+            }
+
+            h6 {
+                color: #0282F9;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+}
