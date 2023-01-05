@@ -13,7 +13,7 @@
 
         <div class="links">
             <a href="#" aria-current="page">characters</a>
-            <a href="{{route('home')}}" aria-current="page">vinyls</a>
+            <a href="{{route('home')}}" aria-current="page">comics</a>
             <a href="#" aria-current="page">movies</a>
             <a href="#" aria-current="page">tv</a>
             <a href="#" aria-current="page">games</a>
@@ -22,6 +22,7 @@
             <a href="#" aria-current="page">fans</a>
             <a href="#" aria-current="page">shop</a>
             <a href="#" aria-current="page">news</a>
+            <a class="text-muted" href="admin" aria-current="page">admin</a>
         </div>
 
         <div class="search">

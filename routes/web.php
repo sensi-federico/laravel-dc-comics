@@ -20,4 +20,12 @@ Route::get('/', function () {
     return view('welcome', compact('comics'));
 })->name('home');
 
+
+Route::get('admin', function () {
+
+    $comics = Comic::all();
+    return view('admin.comics.index', compact('comics'));
+})->name('admin');
+
+
 Route::resource('admin/comics', ComicController::class);
