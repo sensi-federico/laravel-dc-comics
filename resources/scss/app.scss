@@ -5,6 +5,11 @@ img {
     max-width: 100%;
 }
 
+.container-small {
+    margin: auto;
+    width: 60%;
+}
+
 
 header {
 
@@ -46,6 +51,18 @@ main {
     .jumbotron {
         background-image: url('../img/jumbotron.jpg');
         height: 400px;
+
+    }
+
+    .banner-show {
+        height: 70px;
+        background-color: #0282F9;
+
+        img {
+            position: relative;
+            bottom: 15rem;
+            border: 5px solid #f5f5f5;
+        }
     }
 
     .banner {

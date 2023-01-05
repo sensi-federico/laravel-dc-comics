@@ -15,8 +15,8 @@
             <div class="col">
                 <a href="">
                     <div class="my-card text-white text-uppercase border-0">
-                        <img class="card-img-top" src="{{$comic['thumb']}}" alt="">
-                        <p class="m-0 pt-4">{{$comic['title']}}</p>
+                        <img class="card-img-top" src="{{$comic->thumb}}" alt="">
+                        <p class="m-0 pt-4">{{$comic->title}}</p>
                     </div>
                 </a>
             </div>

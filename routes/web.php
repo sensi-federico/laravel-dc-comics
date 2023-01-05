@@ -17,6 +17,7 @@ use App\Models\Comic;
 Route::get('/', function () {
 
     $comics = Comic::all();
+
     return view('welcome', compact('comics'));
 })->name('home');
 
@@ -24,6 +25,7 @@ Route::get('/', function () {
 Route::get('admin', function () {
 
     $comics = Comic::all();
+
     return view('admin.comics.index', compact('comics'));
 })->name('admin');
 
