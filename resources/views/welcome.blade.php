@@ -3,13 +3,13 @@
 @section('content')
 
 <section class="jumbotron">
-    <div class="banner">
-        <h3>current series</h3>
-    </div>
 </section>
 
 <section class="comics bg-dark">
     <div class="container">
+        <div class="banner">
+            <h3>current series</h3>
+        </div>
         <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 g-3">
             @foreach($comics as $comic)
             <div class="col">
